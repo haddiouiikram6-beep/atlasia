@@ -1,0 +1,1949 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ATLASIA – Discover Morocco Differently | Your Journey Starts Here</title>
+  <meta name="description" content="ATLASIA is the official tourism discovery platform for the Béni Mellal-Khénifra region in Morocco. Explore breathtaking destinations, travel packs by budget, traveler passport, community stories, and certified local guides.">
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome CDN for glyphs -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Master Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       A. Navigation Bar (Updated with New Links)
+       ======================================================================== -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <nav class="navbar" aria-label="Main Navigation">
+        
+        <!-- Brand Identity Logo & Name -->
+        <a href="#home" class="brand-group" title="ATLASIA – Discover Morocco Differently">
+          <svg class="brand-symbol" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="39" cy="22" r="13" fill="#FF7138" />
+            <path d="M12 48L32 20L44 36L48 30L60 48H12Z" fill="#4169E1" opacity="0.88" />
+            <path d="M4 48L25 15L43 48H4Z" fill="#172554" />
+            <path d="M25 15L17 28L25 25L32 30L25 15Z" fill="#FFFFFF" opacity="0.9" />
+            <path d="M38 28L32 36L38 34L44 36L38 28Z" fill="#93C5FD" opacity="0.9" />
+          </svg>
+          <div class="brand-text">
+            <span class="brand-name">ATLASIA</span>
+            <span class="brand-tagline">Discover Morocco differently</span>
+          </div>
+        </a>
+
+        <!-- Mobile Hamburger Toggle (Pure CSS) -->
+        <input type="checkbox" id="mobile-toggle" class="mobile-toggle-input" aria-label="Toggle navigation menu">
+        <label for="mobile-toggle" class="mobile-toggle-label" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <!-- Extended Navigation Links Menu -->
+        <ul class="nav-menu" role="menubar">
+          <li role="none">
+            <a href="#home" class="nav-link active" role="menuitem">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+              <span>Home</span>
+            </a>
+          </li>
+          <li role="none">
+            <a href="#explore" class="nav-link" role="menuitem">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span>Explore</span>
+            </a>
+          </li>
+          <li role="none">
+            <a href="#heritage" class="nav-link" role="menuitem">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18M3 7v1a3 3 0 0 0 6 0V7m0 1a3 3 0 0 0 6 0V7m0 1a3 3 0 0 0 6 0V7M4 21V11m16 10V11M9 21v-7a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v7M4 7l8-4 8 4"></path></svg>
+              <span>Historical Heritage</span>
+            </a>
+          </li>
+
+          <li role="none">
+            <a href="#travel-packs" class="nav-link" role="menuitem">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+              <span>Travel Packs</span>
+            </a>
+          </li>
+          <li role="none">
+            <a href="#passport" class="nav-link" role="menuitem">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <span>My Passport</span>
+            </a>
+          </li>
+          <li role="none">
+            <a href="#community" class="nav-link" role="menuitem">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+              <span>Community</span>
+            </a>
+          </li>
+          <li role="none">
+            <a href="#guides" class="nav-link" role="menuitem">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+              <span>Local Guides</span>
+            </a>
+          </li>
+          <li role="none">
+            <a href="#about" class="nav-link" role="menuitem">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg>
+              <span>About</span>
+            </a>
+          </li>
+        </ul>
+
+        <!-- Right Side Nav Actions -->
+        <div class="nav-actions">
+          <div class="lang-selector" title="Language: English">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+            <span>EN</span>
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </div>
+
+          <a href="#favorites" class="btn-favorite-nav" aria-label="Favorites" title="View Saved Favorites">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
+          </a>
+
+          <a href="#signin" class="btn-signin">Sign In</a>
+        </div>
+
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========================================================================
+         B. Hero Section (Preserved)
+         ======================================================================== -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+
+          <div class="location-badge">
+            <span class="badge-pin-icon">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="#FF7138" stroke="none" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            </span>
+            <span>Béni Mellal-Khénifra, Morocco</span>
+          </div>
+
+          <h1 class="hero-title">
+            Discover<br>
+            <span class="highlight-orange">Morocco</span> Differently
+          </h1>
+
+          <p class="hero-description">
+            Your journey starts here. Explore breathtaking places, live authentic experiences and support local communities.
+          </p>
+
+          <!-- Horizontal Search Bar Floating Widget -->
+          <div class="search-bar-container">
+            <form class="search-bar" action="#explore" method="get" role="search">
+              
+              <div class="search-field destination-field">
+                <span class="search-field-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+                </span>
+                <input 
+                  type="text" 
+                  class="search-input" 
+                  name="destination" 
+                  placeholder="Where do you want to explore ?" 
+                  aria-label="Destination query">
+              </div>
+
+              <div class="search-divider" aria-hidden="true"></div>
+
+              <div class="search-field">
+                <span class="search-field-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </span>
+                <select class="search-select" name="region" aria-label="Select Region">
+                  <option value="all" selected>All Regions</option>
+                  <option value="azilal">Azilal</option>
+                  <option value="beni-mellal">Béni Mellal</option>
+                  <option value="khenifra">Khénifra</option>
+                  <option value="fquih-ben-salah">Fquih Ben Salah</option>
+                  <option value="khouribga">Khouribga</option>
+                </select>
+              </div>
+
+              <div class="search-divider" aria-hidden="true"></div>
+
+              <div class="search-field">
+                <span class="search-field-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="7" height="7" x="3" y="3" rx="1"></rect><rect width="7" height="7" x="14" y="3" rx="1"></rect><rect width="7" height="7" x="14" y="14" rx="1"></rect><rect width="7" height="7" x="3" y="14" rx="1"></rect></svg>
+                </span>
+                <select class="search-select" name="activity" aria-label="Select Activity">
+                  <option value="all" selected>All Activities</option>
+                  <option value="trekking">Mountain Trekking</option>
+                  <option value="water-sports">Water Sports & Lakes</option>
+                  <option value="cultural">Heritage & Kasbahs</option>
+                  <option value="gastronomy">Berber Culinary</option>
+                  <option value="crafts">Local Artisans</option>
+                </select>
+              </div>
+
+              <div class="search-divider" aria-hidden="true"></div>
+
+              <div class="search-field">
+                <span class="search-field-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg>
+                </span>
+                <select class="search-select" name="date" aria-label="Select Date">
+                  <option value="any" selected>Any Date</option>
+                  <option value="this-weekend">This Weekend</option>
+                  <option value="next-week">Next Week</option>
+                  <option value="this-month">This Month</option>
+                  <option value="spring-season">Spring Season</option>
+                </select>
+              </div>
+
+              <button type="submit" class="btn-search" aria-label="Search destinations">
+                <span>Search</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </button>
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Organic Wave Transition into Warm Cream Background -->
+      <div class="hero-wave-divider" aria-hidden="true">
+        <svg viewBox="0 0 1440 85" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,45 C320,68 640,24 1020,18 C1200,15 1340,36 1440,46 V85 H0 Z" fill="#FEFAE0"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         C. Popular Destinations + D. Surprise Me + E. Platform Benefits (Preserved)
+         ======================================================================== -->
+    <section id="explore" class="destinations-section">
+      <div class="container">
+
+        <div class="section-header-bar">
+          <div>
+            <div class="section-kicker">DISCOVER OUR REGION</div>
+            <h2 class="section-title">Popular Destinations</h2>
+            <p class="section-subtitle">Discover the beauty of our region.</p>
+          </div>
+          <a href="#destinations" class="explore-all-link">
+            <span>Explore all</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </div>
+
+        <div class="explore-grid">
+
+          <!-- Destination Card 1: Cascades d'Ouzoud -->
+          <article class="destination-card">
+            <div class="card-image-wrapper">
+              <img src="assets/images/ouzoud.jpg" alt="Cascades d'Ouzoud – Azilal" class="card-image" loading="lazy">
+              <div class="card-overlay" aria-hidden="true"></div>
+            </div>
+            <input type="checkbox" id="fav-ouzoud" class="card-fav-checkbox">
+            <label for="fav-ouzoud" class="card-fav-btn" title="Toggle Favorite" aria-label="Toggle favorite for Cascades d'Ouzoud">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
+            </label>
+            <div class="card-content">
+              <div class="card-meta">
+                <h3 class="card-title">Cascades d'Ouzoud</h3>
+                <span class="card-location">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                  Azilal
+                </span>
+              </div>
+              <a href="#ouzoud" class="card-arrow-btn" aria-label="Explore Cascades d'Ouzoud">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Destination Card 2: Lac Bin El Ouidane -->
+          <article class="destination-card">
+            <div class="card-image-wrapper">
+              <img src="assets/images/bin-el-ouidane.jpg" alt="Lac Bin El Ouidane – Azilal" class="card-image" loading="lazy">
+              <div class="card-overlay" aria-hidden="true"></div>
+            </div>
+            <input type="checkbox" id="fav-bin-el-ouidane" class="card-fav-checkbox">
+            <label for="fav-bin-el-ouidane" class="card-fav-btn" title="Toggle Favorite" aria-label="Toggle favorite for Lac Bin El Ouidane">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
+            </label>
+            <div class="card-content">
+              <div class="card-meta">
+                <h3 class="card-title">Lac Bin El Ouidane</h3>
+                <span class="card-location">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                  Azilal
+                </span>
+              </div>
+              <a href="#bin-el-ouidane" class="card-arrow-btn" aria-label="Explore Lac Bin El Ouidane">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Destination Card 3: Vallée d'Aït Bouguemez -->
+          <article class="destination-card">
+            <div class="card-image-wrapper">
+              <img src="assets/images/ait-bouguemez.jpg" alt="Vallée d'Aït Bouguemez – Azilal" class="card-image" loading="lazy">
+              <div class="card-overlay" aria-hidden="true"></div>
+            </div>
+            <input type="checkbox" id="fav-ait-bouguemez" class="card-fav-checkbox">
+            <label for="fav-ait-bouguemez" class="card-fav-btn" title="Toggle Favorite" aria-label="Toggle favorite for Vallée d'Aït Bouguemez">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
+            </label>
+            <div class="card-content">
+              <div class="card-meta">
+                <h3 class="card-title">Vallée d'Aït Bouguemez</h3>
+                <span class="card-location">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                  Azilal
+                </span>
+              </div>
+              <a href="#ait-bouguemez" class="card-arrow-btn" aria-label="Explore Vallée d'Aït Bouguemez">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Destination Card 4: Forêt de Cèdres -->
+          <article class="destination-card">
+            <div class="card-image-wrapper">
+              <img src="assets/images/foret-cedres.jpg" alt="Forêt de Cèdres – Khénifra" class="card-image" loading="lazy">
+              <div class="card-overlay" aria-hidden="true"></div>
+            </div>
+            <input type="checkbox" id="fav-foret-cedres" class="card-fav-checkbox">
+            <label for="fav-foret-cedres" class="card-fav-btn" title="Toggle Favorite" aria-label="Toggle favorite for Forêt de Cèdres">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
+            </label>
+            <div class="card-content">
+              <div class="card-meta">
+                <h3 class="card-title">Forêt de Cèdres</h3>
+                <span class="card-location">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                  Khénifra
+                </span>
+              </div>
+              <a href="#foret-cedres" class="card-arrow-btn" aria-label="Explore Forêt de Cèdres">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Surprise Me Card -->
+          <aside class="surprise-me-card" aria-label="Surprise Trip Planner">
+            <div class="surprise-header">
+              <div class="surprise-sparkles" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3L12 3z"/></svg>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3L12 3z"/></svg>
+              </div>
+              <h3 class="surprise-title">Surprise Me !</h3>
+              <p class="surprise-description">
+                Let us create your perfect trip in Béni Mellal-Khénifra.
+              </p>
+            </div>
+
+            <div class="surprise-scene" aria-hidden="true">
+              <svg class="surprise-trail-svg" viewBox="0 0 150 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 60C40 68 60 32 100 48C125 58 135 24 140 8" stroke="#FF7138" stroke-width="2.5" stroke-dasharray="5 5" stroke-linecap="round"/>
+              </svg>
+
+              <div class="postcard-wrapper">
+                <img src="assets/images/bin-el-ouidane.jpg" alt="Moroccan scenic polaroid" class="postcard-photo">
+              </div>
+
+              <div class="surprise-pin">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+              </div>
+            </div>
+
+            <a href="#surprise-adventure" class="btn-surprise">
+              <span>Discover My Adventure</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </aside>
+
+          <!-- Benefits Row -->
+          <div class="benefits-container" role="region" aria-label="Platform Benefits">
+            <div class="benefit-item">
+              <div class="benefit-icon-wrapper benefit-icon-1" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+              </div>
+              <div class="benefit-content">
+                <h4 class="benefit-title">Authentic Experiences</h4>
+                <span class="benefit-subtitle">Live like a local</span>
+              </div>
+            </div>
+
+            <div class="benefit-item">
+              <div class="benefit-icon-wrapper benefit-icon-2" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+              </div>
+              <div class="benefit-content">
+                <h4 class="benefit-title">Local Guides</h4>
+                <span class="benefit-subtitle">Meet passionate locals</span>
+              </div>
+            </div>
+
+            <div class="benefit-item">
+              <div class="benefit-icon-wrapper benefit-icon-3" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><polyline points="9 12 11 14 15 10"></polyline></svg>
+              </div>
+              <div class="benefit-content">
+                <h4 class="benefit-title">Secure Booking</h4>
+                <span class="benefit-subtitle">Travel with confidence</span>
+              </div>
+            </div>
+
+            <div class="benefit-item">
+              <div class="benefit-icon-wrapper benefit-icon-4" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></svg>
+              </div>
+              <div class="benefit-content">
+                <h4 class="benefit-title">Sustainable Tourism</h4>
+                <span class="benefit-subtitle">For a greener tomorrow</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    
+      <!-- Moroccan Kasbah & Atlas Skyline Decorative Silhouette (As seen in Reference Design) -->
+      <div class="moroccan-skyline-wrapper destinations-skyline" aria-hidden="true">
+        <svg viewBox="0 0 1440 120" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- Layer 1: Distant Atlas Mountain Silhouettes -->
+          <path d="M0 120L0 65C120 45 220 58 350 30C480 60 590 35 720 50C850 30 960 55 1100 25C1220 50 1340 35 1440 45V120H0Z" fill="#DDA15E" opacity="0.32"/>
+          <path d="M0 120L0 75C80 60 160 68 280 48C410 70 520 52 640 62C780 44 890 65 1020 40C1160 62 1300 48 1440 58V120H0Z" fill="#90877E" opacity="0.45"/>
+
+          <!-- Layer 2: Earthen Kasbah Ramparts (Béni Mellal / Ain Asserdoun style) -->
+          <path d="M0 120L0 90H35V78H45V90H60V78H70V90H95V72H110V90H140L145 84L150 90H195V80H205V90H220V80H230V90H275V95H360V82H375V95H410L420 78L430 95H500V65H515V60H520V55L525 50L530 55V60H535V65H550V95H595V80H610V95H650V70H660V65H670V70H680V95H745V85H760V95H820V75H835V95H865L875 80L885 95H935V68H948V62H952V58L956 52L960 58V62H964V68H978V95H1035V80H1050V95H1110V70H1125V95H1180V82H1195V95H1260V74H1275V95H1335V80H1350V95H1440V120H0Z" fill="#DDA15E" opacity="0.85"/>
+          
+          <!-- Layer 3: Foreground Kasbah Walls, Bastions & Ain Asserdoun Minaret -->
+          <path d="M0 120L0 98H115V90H125V98H220V92H232V98H345V88H358V98H440V82H452V78H456V74L460 70L464 74V78H468V82H480V98H570V90H582V98H690V86H702V98H795V80H808V76H812V72L816 68L820 72V76H824V80H836V98H940V92H952V98H1045V85H1058V98H1145V90H1158V98H1260V86H1272V98H1365V90H1378V98H1440V120H0Z" fill="#BC6C25" opacity="0.95"/>
+
+          <!-- Layer 4: Ain Asserdoun Fortress Minaret & Towers -->
+          <rect x="806" y="42" width="20" height="56" rx="2" fill="#826144"/>
+          <polygon points="816,28 808,42 824,42" fill="#03045E"/>
+          <circle cx="816" cy="26" r="2.5" fill="#DDA15E"/>
+          <rect x="813" y="48" width="6" height="10" rx="3" fill="#03045E"/>
+          <rect x="813" y="64" width="6" height="10" rx="3" fill="#03045E"/>
+
+          <!-- Minaret 2 (Azilal Kasbah Tower) -->
+          <rect x="452" y="52" width="16" height="46" rx="1.5" fill="#826144"/>
+          <polygon points="460,40 453,52 467,52" fill="#03045E"/>
+          <circle cx="460" cy="38" r="2" fill="#DDA15E"/>
+          <rect x="457" y="58" width="6" height="8" rx="3" fill="#03045E"/>
+
+          <!-- Layer 5: Moroccan Oasis Palm Trees -->
+          <!-- Palm 1 at x=780 -->
+          <path d="M783 100C782 85 780 75 778 68" stroke="#826144" stroke-width="3" stroke-linecap="round"/>
+          <path d="M778 68C765 64 756 70 752 76" stroke="#22822A" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M778 68C772 58 765 54 758 56" stroke="#585F3A" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M778 68C782 56 788 54 794 58" stroke="#22822A" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M778 68C790 62 798 68 802 75" stroke="#708239" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M778 68C780 60 784 56 788 56" stroke="#606C38" stroke-width="2.5" stroke-linecap="round"/>
+
+          <!-- Palm 2 at x=845 -->
+          <path d="M843 100C844 86 846 76 848 70" stroke="#826144" stroke-width="2.8" stroke-linecap="round"/>
+          <path d="M848 70C838 66 830 72 826 77" stroke="#22822A" stroke-width="2.2" stroke-linecap="round"/>
+          <path d="M848 70C844 60 838 56 832 58" stroke="#585F3A" stroke-width="2.2" stroke-linecap="round"/>
+          <path d="M848 70C854 58 860 56 866 60" stroke="#708239" stroke-width="2.2" stroke-linecap="round"/>
+          <path d="M848 70C858 64 864 70 868 76" stroke="#22822A" stroke-width="2.2" stroke-linecap="round"/>
+
+          <!-- Palm 3 at x=430 -->
+          <path d="M432 100C431 87 430 78 428 72" stroke="#826144" stroke-width="2.8" stroke-linecap="round"/>
+          <path d="M428 72C418 68 410 74 406 80" stroke="#22822A" stroke-width="2.2" stroke-linecap="round"/>
+          <path d="M428 72C422 62 416 58 410 60" stroke="#708239" stroke-width="2.2" stroke-linecap="round"/>
+          <path d="M428 72C432 60 438 58 444 62" stroke="#585F3A" stroke-width="2.2" stroke-linecap="round"/>
+          <path d="M428 72C438 66 444 72 448 78" stroke="#22822A" stroke-width="2.2" stroke-linecap="round"/>
+
+          <!-- Palm 4 at x=985 -->
+          <path d="M983 100C984 88 986 78 988 72" stroke="#826144" stroke-width="2.8" stroke-linecap="round"/>
+          <path d="M988 72C978 68 970 74 966 80" stroke="#708239" stroke-width="2.2" stroke-linecap="round"/>
+          <path d="M988 72C994 60 1000 58 1006 62" stroke="#22822A" stroke-width="2.2" stroke-linecap="round"/>
+          <path d="M988 72C998 66 1004 72 1008 78" stroke="#585F3A" stroke-width="2.2" stroke-linecap="round"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         HISTORICAL MONUMENTS & HERITAGE SECTION
+         ======================================================================== -->
+    <section id="heritage" class="heritage-section">
+      <div class="container">
+
+        <!-- Section Header Bar -->
+        <div class="section-header-bar">
+          <div>
+            <div class="section-kicker">MOROCCAN CULTURAL HERITAGE</div>
+            <h2 class="section-title">Historical Monuments & Heritage</h2>
+            <p class="section-subtitle">Preserving centuries of history, ancient architecture, and cultural wonders in Béni Mellal-Khénifra.</p>
+          </div>
+          <a href="#heritage-grid" class="explore-all-link">
+            <span>View All Monuments</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </div>
+
+        <!-- 2. Heritage Hero Banner -->
+        <div class="heritage-hero-banner" role="banner" aria-label="Discover the History of Béni Mellal-Khénifra">
+          <div class="heritage-hero-content">
+            <div class="heritage-hero-badge">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18M3 7v1a3 3 0 0 0 6 0V7m0 1a3 3 0 0 0 6 0V7m0 1a3 3 0 0 0 6 0V7M4 21V11m16 10V11M9 21v-7a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v7M4 7l8-4 8 4"></path></svg>
+              <span>Cultural Heritage & Archaeological Discovery</span>
+            </div>
+            <h3 class="heritage-hero-title">Discover the History of Béni Mellal-Khénifra</h3>
+            <p class="heritage-hero-subtitle">
+              Explore ancient kasbahs, historical monuments, archaeological sites, and the cultural heritage of Morocco.
+            </p>
+
+            <!-- Search Field & Filters Widget -->
+            <form class="heritage-filter-bar" action="#heritage-grid" method="get" role="search" aria-label="Filter Heritage Sites">
+              <div class="heritage-filter-field">
+                <span class="heritage-filter-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+                </span>
+                <input type="text" class="heritage-filter-input" placeholder="Search monument, kasbah, or site..." aria-label="Search historical monuments">
+              </div>
+
+              <!-- Filter 1: Province -->
+              <div class="heritage-filter-field">
+                <span class="heritage-filter-icon">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </span>
+                <select class="heritage-filter-select" aria-label="Filter by Province">
+                  <option value="all" selected>All Provinces</option>
+                  <option value="beni-mellal">Béni Mellal</option>
+                  <option value="khenifra">Khénifra</option>
+                  <option value="azilal">Azilal</option>
+                  <option value="khouribga">Khouribga</option>
+                  <option value="fquih-ben-salah">Fquih Ben Salah</option>
+                </select>
+              </div>
+
+              <!-- Filter 2: Heritage Type -->
+              <div class="heritage-filter-field">
+                <span class="heritage-filter-icon">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18M3 7v1a3 3 0 0 0 6 0V7m0 1a3 3 0 0 0 6 0V7m0 1a3 3 0 0 0 6 0V7M4 21V11m16 10V11M9 21v-7a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v7M4 7l8-4 8 4"></path></svg>
+                </span>
+                <select class="heritage-filter-select" aria-label="Filter by Heritage Type">
+                  <option value="all" selected>All Heritage Types</option>
+                  <option value="kasbahs">Historical Kasbahs</option>
+                  <option value="architecture">Ancient Architecture</option>
+                  <option value="archaeology">Archaeological Sites</option>
+                  <option value="engravings">Rock Engravings</option>
+                  <option value="traditional">Traditional Heritage</option>
+                  <option value="museums">Museums</option>
+                </select>
+              </div>
+
+              <!-- Filter 3: Historical Period -->
+              <div class="heritage-filter-field">
+                <span class="heritage-filter-icon">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg>
+                </span>
+                <select class="heritage-filter-select" aria-label="Filter by Historical Period">
+                  <option value="all" selected>All Historical Periods</option>
+                  <option value="prehistoric">Bronze Age / Prehistoric</option>
+                  <option value="almohad">Almohad Era (12th–13th c.)</option>
+                  <option value="alaouite">Alaouite Era (17th–18th c.)</option>
+                  <option value="amazigh-resistance">Late 19th – Early 20th c.</option>
+                  <option value="industrial-20th">20th c. Industrial & Geological</option>
+                </select>
+              </div>
+
+              <button type="submit" class="btn-filter-heritage">
+                <span>Filter</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- 4. Heritage Category Quick-Pills -->
+        <div class="heritage-categories-wrapper" role="region" aria-label="Heritage Categories">
+          <ul class="heritage-categories-list">
+            <li><a href="#heritage-grid" class="heritage-cat-pill active">All Categories <span class="heritage-cat-count">10</span></a></li>
+            <li><a href="#heritage-grid" class="heritage-cat-pill">Historical Kasbahs <span class="heritage-cat-count">4</span></a></li>
+            <li><a href="#heritage-grid" class="heritage-cat-pill">Ancient Architecture <span class="heritage-cat-count">2</span></a></li>
+            <li><a href="#heritage-grid" class="heritage-cat-pill">Archaeological Sites <span class="heritage-cat-count">1</span></a></li>
+            <li><a href="#heritage-grid" class="heritage-cat-pill">Rock Engravings <span class="heritage-cat-count">1</span></a></li>
+            <li><a href="#heritage-grid" class="heritage-cat-pill">Traditional Heritage <span class="heritage-cat-count">1</span></a></li>
+            <li><a href="#heritage-grid" class="heritage-cat-pill">Museums <span class="heritage-cat-count">1</span></a></li>
+          </ul>
+        </div>
+
+        <!-- 3. Historical Monuments Cards Grid (10 Real Locations) -->
+        <div id="heritage-grid" class="heritage-grid" role="region" aria-label="Historical Monuments Catalog">
+
+          <!-- Card 1: Kasbah Tadla -->
+          <article class="monument-card">
+            <div class="monument-media">
+              <img src="assets/images/kasbah-tadla.jpg" alt="Kasbah Tadla fortress ramparts on Oum Er-Rbia river" class="monument-image" loading="lazy">
+              <span class="monument-cat-tag">Historical Kasbah</span>
+              <span class="monument-province-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                Béni Mellal
+              </span>
+            </div>
+            <div class="monument-body">
+              <div class="monument-period-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg>
+                Alaouite Era (c. 1684)
+              </div>
+              <h3 class="monument-title">Kasbah Tadla</h3>
+              <div class="monument-location">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                <span>Kasba Tadla, Béni Mellal Province</span>
+              </div>
+              <p class="monument-description">
+                Imposing military fortress built under Sultan Moulay Ismail on the trans-Atlas trading route, featuring massive double adobe ramparts, stone bastions, and two historic mosques overlooking the Oum Er-Rbia river.
+              </p>
+              <div class="monument-footer">
+                <span class="monument-status">Classified National Heritage</span>
+                <a href="#heritage-detail" class="btn-monument-link">
+                  <span>Discover More</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: Kasbah Belkouch (Ain Asserdoun) -->
+          <article class="monument-card">
+            <div class="monument-media">
+              <img src="assets/images/kasbah-belkouch.jpg" alt="Kasbah Belkouch Ain Asserdoun fortress perched on limestone cliff" class="monument-image" loading="lazy">
+              <span class="monument-cat-tag">Historical Kasbah</span>
+              <span class="monument-province-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                Béni Mellal
+              </span>
+            </div>
+            <div class="monument-body">
+              <div class="monument-period-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg>
+                17th–19th Century
+              </div>
+              <h3 class="monument-title">Kasbah Belkouch (Ain Asserdoun)</h3>
+              <div class="monument-location">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                <span>Ain Asserdoun Promontory, Béni Mellal</span>
+              </div>
+              <p class="monument-description">
+                Iconic stone and earthen stronghold perched high upon the rocky limestone crest above the Ain Asserdoun freshwater spring, historically constructed as a defensive sentinel over the city and the vast olive orchards.
+              </p>
+              <div class="monument-footer">
+                <span class="monument-status">Historic Landmark</span>
+                <a href="#heritage-detail" class="btn-monument-link">
+                  <span>Discover More</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3: Soumâa Minaret -->
+          <article class="monument-card">
+            <div class="monument-media">
+              <img src="assets/images/soumaa-minaret.jpg" alt="Historic Almohad Soumaa Minaret in Beni Mellal" class="monument-image" loading="lazy">
+              <span class="monument-cat-tag">Ancient Architecture</span>
+              <span class="monument-province-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                Béni Mellal
+              </span>
+            </div>
+            <div class="monument-body">
+              <div class="monument-period-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg>
+                Almohad Era (12th–13th c.)
+              </div>
+              <h3 class="monument-title">Soumâa Minaret</h3>
+              <div class="monument-location">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                <span>Old Oasis Quarter, Béni Mellal</span>
+              </div>
+              <p class="monument-description">
+                Historic solitary minaret erected with fired brick and dressed stone, decorated with geometric blind arches. It remains the oldest standing Islamic architectural monument in the urban territory of Béni Mellal.
+              </p>
+              <div class="monument-footer">
+                <span class="monument-status">Archaeological Monument</span>
+                <a href="#heritage-detail" class="btn-monument-link">
+                  <span>Discover More</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4: Kasbah Moha Ou Hammou Zayani -->
+          <article class="monument-card">
+            <div class="monument-media">
+              <img src="assets/images/kasbah-zayani.jpg" alt="Kasbah Moha Ou Hammou Zayani in Khenifra" class="monument-image" loading="lazy">
+              <span class="monument-cat-tag">Historical Kasbah</span>
+              <span class="monument-province-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                Khénifra
+              </span>
+            </div>
+            <div class="monument-body">
+              <div class="monument-period-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg>
+                Late 19th – Early 20th c.
+              </div>
+              <h3 class="monument-title">Kasbah Moha Ou Hammou Zayani</h3>
+              <div class="monument-location">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                <span>Khénifra, Middle Atlas</span>
+              </div>
+              <p class="monument-description">
+                Historical headquarters and residence of the renowned Zayan resistance chieftain Moha ou Hammou Zayani, symbolizing the epic defense of the Middle Atlas mountains during the Battle of El Herri.
+              </p>
+              <div class="monument-footer">
+                <span class="monument-status">Resistance Memorial</span>
+                <a href="#heritage-detail" class="btn-monument-link">
+                  <span>Discover More</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 5: Kasbah Adekhssal -->
+          <article class="monument-card">
+            <div class="monument-media">
+              <img src="assets/images/kasbah-adekhssal.jpg" alt="Kasbah Adekhssal in Khenifra province" class="monument-image" loading="lazy">
+              <span class="monument-cat-tag">Historical Kasbah</span>
+              <span class="monument-province-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                Khénifra
+              </span>
+            </div>
+            <div class="monument-body">
+              <div class="monument-period-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg>
+                17th–18th Century
+              </div>
+              <h3 class="monument-title">Kasbah Adekhssal</h3>
+              <div class="monument-location">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                <span>Adekhssal Valley, Khénifra</span>
+              </div>
+              <p class="monument-description">
+                Striking rural fortress erected on an elevated strategic promontory, displaying classic Amazigh stepped ramparts, corner watchtowers, and thick earthen walls that protected mountain pastoralist routes.
+              </p>
+              <div class="monument-footer">
+                <span class="monument-status">Earthen Architecture</span>
+                <a href="#heritage-detail" class="btn-monument-link">
+                  <span>Discover More</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 6: Kasbah Zaouit Ahansal -->
+          <article class="monument-card">
+            <div class="monument-media">
+              <img src="assets/images/zaouit-ahansal.jpg" alt="Fortified Kasbah Zaouit Ahansal village in Azilal High Atlas" class="monument-image" loading="lazy">
+              <span class="monument-cat-tag">Historical Kasbah</span>
+              <span class="monument-province-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                Azilal
+              </span>
+            </div>
+            <div class="monument-body">
+              <div class="monument-period-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg>
+                Founded 13th–14th Century
+              </div>
+              <h3 class="monument-title">Kasbah Zaouit Ahansal</h3>
+              <div class="monument-location">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                <span>Ahansal River Valley, Azilal</span>
+              </div>
+              <p class="monument-description">
+                Renowned religious zaouia settlement and fortified stone ksar nestled beneath towering limestone massifs, preserving centuries of spiritual scholarship, tribal mediation, and dramatic High Atlas masonry.
+              </p>
+              <div class="monument-footer">
+                <span class="monument-status">Living Mountain Heritage</span>
+                <a href="#heritage-detail" class="btn-monument-link">
+                  <span>Discover More</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 7: Amezraï Collective Granary -->
+          <article class="monument-card">
+            <div class="monument-media">
+              <img src="assets/images/amezrai-granary.svg" alt="Amezrai collective fortified granary Igherm in Ait Bouguemez" class="monument-image" loading="lazy">
+              <span class="monument-cat-tag">Traditional Heritage</span>
+              <span class="monument-province-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                Azilal
+              </span>
+            </div>
+            <div class="monument-body">
+              <div class="monument-period-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg>
+                Communal Amazigh Heritage
+              </div>
+              <h3 class="monument-title">Amezraï Collective Granary (Igherm)</h3>
+              <div class="monument-location">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                <span>Aït Bouguemez Valley, Azilal</span>
+              </div>
+              <p class="monument-description">
+                Monumental fortified collective granary built of river stone, clay pisé, and juniper beams. Each local family maintained a locked wooden vault inside to store grain reserves, oil, and title deeds during mountain feuds.
+              </p>
+              <div class="monument-footer">
+                <span class="monument-status">UNESCO Geopark Site</span>
+                <a href="#heritage-detail" class="btn-monument-link">
+                  <span>Discover More</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 8: Tizi n'Tirghist Rock Engravings -->
+          <article class="monument-card">
+            <div class="monument-media">
+              <img src="assets/images/tizi-tirghist.svg" alt="Tizi n'Tirghist prehistoric rock engravings petroglyphs Azilal" class="monument-image" loading="lazy">
+              <span class="monument-cat-tag">Rock Engravings</span>
+              <span class="monument-province-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                Azilal
+              </span>
+            </div>
+            <div class="monument-body">
+              <div class="monument-period-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg>
+                Bronze Age (c. 1500–1000 BCE)
+              </div>
+              <h3 class="monument-title">Tizi n'Tirghist Rock Engravings</h3>
+              <div class="monument-location">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                <span>Tizi n'Tirghist Pass (2,400m), Azilal</span>
+              </div>
+              <p class="monument-description">
+                Pioneering high-altitude open-air archaeological site featuring smooth sandstone slabs pecked with Bronze Age iconography: circular ceremonial shields, metal daggers, halberds, horned oxen, and warriors.
+              </p>
+              <div class="monument-footer">
+                <span class="monument-status">Archaeological Reserve</span>
+                <a href="#heritage-detail" class="btn-monument-link">
+                  <span>Discover More</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 9: Portuguese Bridge over Oum Er-Rbia -->
+          <article class="monument-card">
+            <div class="monument-media">
+              <img src="assets/images/pont-portugais.svg" alt="Historic Portuguese Ismaili stone bridge over Oum Er-Rbia river" class="monument-image" loading="lazy">
+              <span class="monument-cat-tag">Ancient Architecture</span>
+              <span class="monument-province-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                Khénifra Region
+              </span>
+            </div>
+            <div class="monument-body">
+              <div class="monument-period-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg>
+                Alaouite Era (Late 17th c.)
+              </div>
+              <h3 class="monument-title">Portuguese Bridge over Oum Er-Rbia</h3>
+              <div class="monument-location">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                <span>Oum Er-Rbia River, Tadla-Khénifra</span>
+              </div>
+              <p class="monument-description">
+                Majestic multi-arch dressed limestone bridge spanning Morocco's primary river. Attributed to the building campaign of Sultan Moulay Ismail, it served as the vital commercial crossing between northern cities and southern oases.
+              </p>
+              <div class="monument-footer">
+                <span class="monument-status">Historic Infrastructure</span>
+                <a href="#heritage-detail" class="btn-monument-link">
+                  <span>Discover More</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 10: National Museum of Phosphate Mines -->
+          <article class="monument-card">
+            <div class="monument-media">
+              <img src="assets/images/museum-phosphate.svg" alt="National Museum of Phosphate Mines in Khouribga" class="monument-image" loading="lazy">
+              <span class="monument-cat-tag">Museum</span>
+              <span class="monument-province-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                Khouribga
+              </span>
+            </div>
+            <div class="monument-body">
+              <div class="monument-period-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg>
+                20th c. & Late Cretaceous
+              </div>
+              <h3 class="monument-title">National Museum of Phosphate Mines</h3>
+              <div class="monument-location">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                <span>Khouribga Mining District</span>
+              </div>
+              <p class="monument-description">
+                Premier national museum exhibiting the industrial legacy of Morocco's phosphate basin alongside an extraordinary collection of marine paleontological fossils (Mosasaur, crocodile, and shark teeth) dating back 70 million years.
+              </p>
+              <div class="monument-footer">
+                <span class="monument-status">Geological & Mining Heritage</span>
+                <a href="#heritage-detail" class="btn-monument-link">
+                  <span>Discover More</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- 5. Featured Heritage Experience: "Travel Through Time" -->
+        <div class="heritage-featured-box" role="region" aria-label="Travel Through Time Cultural Itinerary">
+          <div class="heritage-featured-header">
+            <div class="heritage-featured-kicker">FEATURED CULTURAL ITINERARY</div>
+            <h3 class="heritage-featured-title">Travel Through Time</h3>
+            <p class="heritage-featured-subtitle">
+              Follow a curated historic journey through imperial citadels, sacred zaouias, and prehistoric rock art across the four historic provinces of Béni Mellal-Khénifra.
+            </p>
+          </div>
+
+          <div class="heritage-timeline">
+
+            <!-- Stage 1 -->
+            <div class="heritage-timeline-step">
+              <div class="step-number-badge">1</div>
+              <div class="step-photo-wrapper">
+                <img src="assets/images/kasbah-tadla.jpg" alt="Kasbah Tadla fortress step" class="step-photo" loading="lazy">
+              </div>
+              <span class="step-region-tag">Step 1 • Tadla Plain</span>
+              <h4 class="step-title">Explore Kasbah Tadla</h4>
+              <p class="step-desc">
+                Walk through the imposing 17th-century adobe bastions and discover the historic Moulay Ismail imperial fortress guarding the trans-Atlas gateway.
+              </p>
+              <span class="step-highlight-tag">Alaouite Citadel</span>
+            </div>
+
+            <!-- Stage 2 -->
+            <div class="heritage-timeline-step">
+              <div class="step-number-badge">2</div>
+              <div class="step-photo-wrapper">
+                <img src="assets/images/kasbah-belkouch.jpg" alt="Kasbah Belkouch overlooking Beni Mellal" class="step-photo" loading="lazy">
+              </div>
+              <span class="step-region-tag">Step 2 • Béni Mellal</span>
+              <h4 class="step-title">Historic Heritage of Béni Mellal</h4>
+              <p class="step-desc">
+                Ascend to clifftop Kasbah Belkouch overlooking the Ain Asserdoun spring and explore the ancient medieval Soumâa minaret nestled in century-old olive groves.
+              </p>
+              <span class="step-highlight-tag">Springs & Minaret</span>
+            </div>
+
+            <!-- Stage 3 -->
+            <div class="heritage-timeline-step">
+              <div class="step-number-badge">3</div>
+              <div class="step-photo-wrapper">
+                <img src="assets/images/zaouit-ahansal.jpg" alt="Zaouit Ahansal in Azilal High Atlas" class="step-photo" loading="lazy">
+              </div>
+              <span class="step-region-tag">Step 3 • Azilal High Atlas</span>
+              <h4 class="step-title">Cultural Heritage Sites of Azilal</h4>
+              <p class="step-desc">
+                Journey into the High Atlas to the sacred Kasbah Zaouit Ahansal, the communal Amezraï granary, and the Bronze Age rock engravings of Tizi n'Tirghist.
+              </p>
+              <span class="step-highlight-tag">Granaries & Rock Art</span>
+            </div>
+
+            <!-- Stage 4 -->
+            <div class="heritage-timeline-step">
+              <div class="step-number-badge">4</div>
+              <div class="step-photo-wrapper">
+                <img src="assets/images/kasbah-zayani.jpg" alt="Kasbah Moha Ou Hammou Zayani in Khenifra" class="step-photo" loading="lazy">
+              </div>
+              <span class="step-region-tag">Step 4 • Khénifra Middle Atlas</span>
+              <h4 class="step-title">History of Khénifra & Zayan</h4>
+              <p class="step-desc">
+                Uncover the heroic Amazigh resistance at Kasbah Moha Ou Hammou Zayani, visit Kasbah Adekhssal, and marvel at the historic stone bridge over the Oum Er-Rbia.
+              </p>
+              <span class="step-highlight-tag">Zayan Strongholds</span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ========================================================================
+         NEW SECTION 1: Smart Travel Packs – Plan Your Trip Based on Budget
+         ======================================================================== -->
+    <section id="travel-packs" class="travel-packs-section">
+      <div class="container">
+        
+        <div class="section-header-bar">
+          <div>
+            <div class="section-kicker">CURATED ITINERARIES BY BUDGET</div>
+            <h2 class="section-title">Your Budget, Your Adventure</h2>
+            <p class="section-subtitle">Tell us your budget and discover what you can experience in Morocco.</p>
+          </div>
+          <span class="explore-all-link" style="cursor: default;">
+            <span>* Estimated illustrative budgets</span>
+          </span>
+        </div>
+
+        <!-- 3 Travel Package Cards -->
+        <div class="packs-grid">
+
+          <!-- Pack 1 – Budget Explorer -->
+          <article class="pack-card">
+            <div class="pack-image-container">
+              <img src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=700&q=80" alt="Ain Asserdoun and Béni Mellal" class="pack-image" loading="lazy">
+              <div class="pack-price-overlay">
+                <span class="pack-price-val">$30</span>
+                <span class="pack-price-unit">/ estimated</span>
+              </div>
+            </div>
+            <div class="pack-body">
+              <div class="pack-badges-row">
+                <span class="pack-pill">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                  1 Day
+                </span>
+                <span class="pack-pill">4 Activities</span>
+                <span class="pack-pill">Béni Mellal</span>
+              </div>
+              <h3 class="pack-name">Budget Explorer</h3>
+              <p class="pack-summary">A charming single-day immersion discovering lush water gardens and the vibrant historic medina.</p>
+              
+              <div class="pack-itinerary-box">
+                <h4 class="pack-itinerary-title">Suggested Itinerary:</h4>
+                <ul class="pack-itinerary-list">
+                  <li class="pack-itinerary-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Visit Ain Asserdoun spring and historic castle.</span>
+                  </li>
+                  <li class="pack-itinerary-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Explore the old city of Béni Mellal & spice souks.</span>
+                  </li>
+                  <li class="pack-itinerary-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Discover authentic local food & Moroccan mint tea.</span>
+                  </li>
+                  <li class="pack-itinerary-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Enjoy a relaxing nature walk along the olive groves.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <a href="#itinerary-30" class="btn-pack-itinerary">
+                <span>View Itinerary</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Pack 2 – Nature Adventure (Featured) -->
+          <article class="pack-card featured">
+            <span class="pack-featured-tag">MOST POPULAR</span>
+            <div class="pack-image-container">
+              <img src="assets/images/ouzoud.jpg" alt="Ouzoud Waterfalls and Bin El Ouidane" class="pack-image" loading="lazy">
+              <div class="pack-price-overlay">
+                <span class="pack-price-val">$70</span>
+                <span class="pack-price-unit">/ estimated</span>
+              </div>
+            </div>
+            <div class="pack-body">
+              <div class="pack-badges-row">
+                <span class="pack-pill">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                  2 Days
+                </span>
+                <span class="pack-pill">6 Activities</span>
+                <span class="pack-pill">Azilal Province</span>
+              </div>
+              <h3 class="pack-name">Nature Adventure</h3>
+              <p class="pack-summary">Experience the majesty of Ouzoud waterfalls followed by a peaceful lakeside escape at Bin El Ouidane.</p>
+              
+              <div class="pack-itinerary-box">
+                <h4 class="pack-itinerary-title">Suggested Itinerary:</h4>
+                <ul class="pack-itinerary-list">
+                  <li class="pack-itinerary-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span><strong>Day 1:</strong> Visit Cascades d'Ouzoud & scenic canyon boat trip.</span>
+                  </li>
+                  <li class="pack-itinerary-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span><strong>Day 1:</strong> Discover a nearby traditional Berber pottery village.</span>
+                  </li>
+                  <li class="pack-itinerary-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span><strong>Day 2:</strong> Explore pristine waters of Lac Bin El Ouidane.</span>
+                  </li>
+                  <li class="pack-itinerary-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span><strong>Day 2:</strong> Enjoy a lakefront fresh fish & tagine food experience.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <a href="#itinerary-70" class="btn-pack-itinerary">
+                <span>View Itinerary</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Pack 3 – Atlas Experience -->
+          <article class="pack-card">
+            <div class="pack-image-container">
+              <img src="assets/images/ait-bouguemez.jpg" alt="Aït Bouguemez Happy Valley" class="pack-image" loading="lazy">
+              <div class="pack-price-overlay">
+                <span class="pack-price-val">$120</span>
+                <span class="pack-price-unit">/ estimated</span>
+              </div>
+            </div>
+            <div class="pack-body">
+              <div class="pack-badges-row">
+                <span class="pack-pill">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                  3 Days
+                </span>
+                <span class="pack-pill">8 Activities</span>
+                <span class="pack-pill">High Atlas</span>
+              </div>
+              <h3 class="pack-name">Atlas Experience</h3>
+              <p class="pack-summary">The ultimate cultural trek through the Happy Valley, ancient granaries, and majestic mountain peaks.</p>
+              
+              <div class="pack-itinerary-box">
+                <h4 class="pack-itinerary-title">Suggested Itinerary:</h4>
+                <ul class="pack-itinerary-list">
+                  <li class="pack-itinerary-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Explore Aït Bouguemez Valley & ancient fortified granaries.</span>
+                  </li>
+                  <li class="pack-itinerary-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Discover living Amazigh culture & authentic family homestay.</span>
+                  </li>
+                  <li class="pack-itinerary-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Enjoy a certified guided mountain trek to panoramic peaks.</span>
+                  </li>
+                  <li class="pack-itinerary-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Experience organic farm-to-table Berber gastronomy.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <a href="#itinerary-120" class="btn-pack-itinerary">
+                <span>View Itinerary</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Custom Budget Area: "Create Your Own Adventure" -->
+        <div class="custom-budget-container">
+          <div class="custom-budget-header">
+            <h3 class="custom-budget-title">Create Your Own Adventure</h3>
+            <p class="custom-budget-subtitle">Select your target budget and preferences to generate a custom itinerary in seconds.</p>
+          </div>
+
+          <div class="budget-builder-grid">
+            
+            <!-- Filters Column (Left) -->
+            <div class="budget-filters-col">
+              
+              <!-- 1. Budget Selector -->
+              <div>
+                <span class="filter-group-label">1. Select Your Target Budget</span>
+                <div class="budget-amounts-row">
+                  <input type="radio" name="custom-budget" id="b-30" class="budget-pill-radio">
+                  <label for="b-30" class="budget-pill-label">$30</label>
+
+                  <input type="radio" name="custom-budget" id="b-50" class="budget-pill-radio">
+                  <label for="b-50" class="budget-pill-label">$50</label>
+
+                  <input type="radio" name="custom-budget" id="b-70" class="budget-pill-radio" checked>
+                  <label for="b-70" class="budget-pill-label">$70</label>
+
+                  <input type="radio" name="custom-budget" id="b-100" class="budget-pill-radio">
+                  <label for="b-100" class="budget-pill-label">$100</label>
+
+                  <input type="radio" name="custom-budget" id="b-150" class="budget-pill-radio">
+                  <label for="b-150" class="budget-pill-label">$150</label>
+                </div>
+              </div>
+
+              <!-- 2. Available Days & Interests -->
+              <div>
+                <span class="filter-group-label">2. Trip Duration & Interests</span>
+                <div class="filter-options-grid">
+                  <input type="radio" name="days-filter" id="d-1" class="filter-chip-radio">
+                  <label for="d-1" class="filter-chip-label">📅 1 Day Trip</label>
+
+                  <input type="radio" name="days-filter" id="d-2" class="filter-chip-radio" checked>
+                  <label for="d-2" class="filter-chip-label">📅 2 Days Trip</label>
+
+                  <input type="radio" name="interest-filter" id="i-nature" class="filter-chip-radio" checked>
+                  <label for="i-nature" class="filter-chip-label">🌲 Nature & Waterfalls</label>
+
+                  <input type="radio" name="interest-filter" id="i-culture" class="filter-chip-radio">
+                  <label for="i-culture" class="filter-chip-label">🏛️ Culture & Heritage</label>
+                </div>
+              </div>
+
+              <!-- 3. Starting Location -->
+              <div>
+                <span class="filter-group-label">3. Starting Location</span>
+                <div class="filter-options-grid">
+                  <input type="radio" name="start-filter" id="s-bm" class="filter-chip-radio" checked>
+                  <label for="s-bm" class="filter-chip-label">📍 Béni Mellal</label>
+
+                  <input type="radio" name="start-filter" id="s-az" class="filter-chip-radio">
+                  <label for="s-az" class="filter-chip-label">📍 Azilal</label>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Static Example Result Card (Right) -->
+            <div class="budget-result-card">
+              <div>
+                <div class="result-card-header">
+                  <div>
+                    <h4 class="result-title">Your $70 Adventure</h4>
+                    <span style="font-size: 0.82rem; color: var(--muted-text);">Personalized 2-Day Nature Itinerary</span>
+                  </div>
+                  <span class="result-badge">ESTIMATED $70</span>
+                </div>
+
+                <div class="result-itinerary-preview">
+                  <div class="result-day-item">
+                    <span class="result-day-tag">Day 1</span>
+                    <div>
+                      <div class="result-day-desc">Cascades d'Ouzoud exploration, olive grove trail hike & local tagine lunch.</div>
+                      <div class="result-day-cost">Est. Cost: $35 (Transport + Meals + Entrance)</div>
+                    </div>
+                  </div>
+                  <div class="result-day-item">
+                    <span class="result-day-tag">Day 2</span>
+                    <div>
+                      <div class="result-day-desc">Lac Bin El Ouidane lakeside lookout, boat cruise & sunset view from the dam.</div>
+                      <div class="result-day-cost">Est. Cost: $35 (Local Boat + Activities + Dinner)</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="result-footer">
+                <p class="result-estimate-note">
+                  * Estimated costs for planning inspiration. Final prices depend on personal choices, season, and guide options.
+                </p>
+                <a href="#custom-adventure-download" class="btn-result-cta">
+                  <span>Explore This Custom Itinerary</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         NEW SECTION 2: My Travel Passport – Badges & Points
+         ======================================================================== -->
+    <section id="passport" class="passport-section">
+      <div class="container">
+
+        <div class="section-header-bar">
+          <div>
+            <div class="section-kicker">GAMIFICATION & REWARDS</div>
+            <h2 class="section-title">My Travel Passport</h2>
+            <p class="section-subtitle">Explore more, collect memories, unlock achievements!</p>
+          </div>
+          <span class="explore-all-link" style="cursor: default;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><polygon points="12 8 8 12 12 16 16 12 12 8"></polygon></svg>
+            <span>Level 3 Explorer Active</span>
+          </span>
+        </div>
+
+        <div class="passport-main-layout">
+
+          <!-- Left Column: Digital Travel Passport Card -->
+          <div class="passport-card">
+            
+            <div class="passport-header-bar">
+              <div class="passport-authority">
+                <span class="passport-authority-title">Kingdom of Morocco · Béni Mellal-Khénifra</span>
+                <span class="passport-doc-name">Official Digital Visitor Passport</span>
+              </div>
+              <div class="passport-crest-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+              </div>
+            </div>
+
+            <!-- Traveler Profile Details -->
+            <div class="traveler-profile-row">
+              <div class="traveler-photo-wrap">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=256&h=256&q=80" alt="Sarah Martin" class="traveler-photo">
+              </div>
+              <div class="traveler-info">
+                <h3 class="traveler-name">Sarah Martin</h3>
+                <span class="traveler-level-badge">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                  Atlas Explorer – Level 3
+                </span>
+                <span class="traveler-xp-total">Total Points: <strong>1,250 XP</strong></span>
+              </div>
+            </div>
+
+            <!-- Level Progress Bar -->
+            <div class="level-progress-box">
+              <div class="progress-labels">
+                <span>Progress to Level 4 (High Atlas Master)</span>
+                <span>1,250 / 2,000 XP</span>
+              </div>
+              <div class="progress-track" aria-label="XP progress 62.5%">
+                <div class="progress-fill"></div>
+              </div>
+              <div class="progress-subtext">750 XP remaining to unlock exclusive artisan discounts</div>
+            </div>
+
+            <!-- Passport Card Stamp Footer -->
+            <div class="passport-stamp-row">
+              <span class="passport-id">ID: MA-BMK-2026-9842</span>
+              <div class="passport-stamp-seal">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>VERIFIED TRAVELER · 2026</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right Column: Badges & Points System -->
+          <div class="passport-content-col">
+
+            <!-- Badges Header -->
+            <div class="badges-box-header">
+              <h3 class="badges-title">Collectible Regional Badges</h3>
+              <span class="badges-count-pill">3 Unlocked / 3 Locked</span>
+            </div>
+
+            <!-- 6 Achievement Badges Grid -->
+            <div class="badges-grid">
+
+              <!-- Badge 1: Waterfall Explorer (Unlocked) -->
+              <div class="badge-card unlocked">
+                <div class="badge-icon-wrap">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path></svg>
+                  <span class="badge-unlocked-tag" title="Unlocked">✓</span>
+                </div>
+                <h4 class="badge-name">Waterfall Explorer</h4>
+                <p class="badge-desc">Visit Cascades d'Ouzoud.</p>
+              </div>
+
+              <!-- Badge 2: Mountain Adventurer (Unlocked) -->
+              <div class="badge-card unlocked">
+                <div class="badge-icon-wrap">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m8 3 4 8 5-5 5 15H2L8 3z"></path></svg>
+                  <span class="badge-unlocked-tag" title="Unlocked">✓</span>
+                </div>
+                <h4 class="badge-name">Mountain Adventurer</h4>
+                <p class="badge-desc">Explore the Atlas Mountains.</p>
+              </div>
+
+              <!-- Badge 3: Local Food Lover (Unlocked) -->
+              <div class="badge-card unlocked">
+                <div class="badge-icon-wrap">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
+                  <span class="badge-unlocked-tag" title="Unlocked">✓</span>
+                </div>
+                <h4 class="badge-name">Local Food Lover</h4>
+                <p class="badge-desc">Discover traditional Moroccan food.</p>
+              </div>
+
+              <!-- Badge 4: Culture Explorer (Locked) -->
+              <div class="badge-card locked">
+                <div class="badge-icon-wrap">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"></circle><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                  <span class="badge-lock-tag" title="Locked">🔒</span>
+                </div>
+                <h4 class="badge-name">Culture Explorer</h4>
+                <p class="badge-desc">Participate in a local cultural activity.</p>
+              </div>
+
+              <!-- Badge 5: Nature Guardian (Locked) -->
+              <div class="badge-card locked">
+                <div class="badge-icon-wrap">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></svg>
+                  <span class="badge-lock-tag" title="Locked">🔒</span>
+                </div>
+                <h4 class="badge-name">Nature Guardian</h4>
+                <p class="badge-desc">Complete an eco-tourism activity.</p>
+              </div>
+
+              <!-- Badge 6: Hidden Gem Hunter (Locked) -->
+              <div class="badge-card locked">
+                <div class="badge-icon-wrap">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                  <span class="badge-lock-tag" title="Locked">🔒</span>
+                </div>
+                <h4 class="badge-name">Hidden Gem Hunter</h4>
+                <p class="badge-desc">Discover 5 hidden destinations.</p>
+              </div>
+
+            </div>
+
+            <!-- Points System Details -->
+            <div class="points-system-container">
+              <h4 class="points-system-title">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                <span>How to Earn Points & Level Up:</span>
+              </h4>
+              <div class="points-pills-row">
+                <div class="point-reward-pill">
+                  <span>📍 Visit a destination</span>
+                  <span class="point-reward-xp">+50 XP</span>
+                </div>
+                <div class="point-reward-pill">
+                  <span>🎒 Book a local experience</span>
+                  <span class="point-reward-xp">+100 XP</span>
+                </div>
+                <div class="point-reward-pill">
+                  <span>✍️ Share a travel story</span>
+                  <span class="point-reward-xp">+30 XP</span>
+                </div>
+                <div class="point-reward-pill">
+                  <span>⭐ Write a review</span>
+                  <span class="point-reward-xp">+20 XP</span>
+                </div>
+                <div class="point-reward-pill">
+                  <span>🏆 Complete a regional challenge</span>
+                  <span class="point-reward-xp">+150 XP</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         NEW SECTION 3: Community Stories – Share Your Experience
+         ======================================================================== -->
+    <section id="community" class="community-section">
+      <div class="container">
+
+        <div class="section-header-bar">
+          <div>
+            <div class="section-kicker">COMMUNITY & EXPERIENCES</div>
+            <h2 class="section-title">Stories from Our Travelers</h2>
+            <p class="section-subtitle">Every journey has a story. Share yours with the world.</p>
+          </div>
+          <div class="community-header-actions">
+            <a href="#share-form" class="btn-share-story">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+              <span>Share Your Experience</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 3 Community Story Cards -->
+        <div class="stories-grid">
+
+          <!-- Post 1: Sarah Martin -->
+          <article class="story-card">
+            <div class="story-author-header">
+              <div class="story-author-meta">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80" alt="Sarah Martin" class="story-author-avatar">
+                <div>
+                  <h3 class="story-author-name">Sarah Martin</h3>
+                  <span class="story-location-tag">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                    Cascades d'Ouzoud
+                  </span>
+                </div>
+              </div>
+              <span class="story-date-badge">2 days ago</span>
+            </div>
+            <div class="story-image-wrap">
+              <img src="assets/images/ouzoud.jpg" alt="Ouzoud Waterfalls" class="story-image" loading="lazy">
+            </div>
+            <div class="story-body">
+              <p class="story-quote">
+                "One of the most beautiful places I've ever visited! The waterfalls and the atmosphere were incredible. The fresh mint tea at the base was pure bliss."
+              </p>
+              <div class="story-social-footer">
+                <div class="story-interactions">
+                  <span class="story-interaction-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="#FF7138" stroke="none"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                    <span>342 likes</span>
+                  </span>
+                  <span class="story-interaction-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                    <span>28 comments</span>
+                  </span>
+                </div>
+                <span>Azilal</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Post 2: Youssef Amrani -->
+          <article class="story-card">
+            <div class="story-author-header">
+              <div class="story-author-meta">
+                <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=150&h=150&q=80" alt="Youssef Amrani" class="story-author-avatar">
+                <div>
+                  <h3 class="story-author-name">Youssef Amrani</h3>
+                  <span class="story-location-tag">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                    Lac Bin El Ouidane
+                  </span>
+                </div>
+              </div>
+              <span class="story-date-badge">5 days ago</span>
+            </div>
+            <div class="story-image-wrap">
+              <img src="assets/images/bin-el-ouidane.jpg" alt="Lac Bin El Ouidane" class="story-image" loading="lazy">
+            </div>
+            <div class="story-body">
+              <p class="story-quote">
+                "A peaceful escape surrounded by breathtaking mountains. Definitely coming back! The crystal-clear turquoise water at sunset is truly unforgettable."
+              </p>
+              <div class="story-social-footer">
+                <div class="story-interactions">
+                  <span class="story-interaction-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="#FF7138" stroke="none"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                    <span>285 likes</span>
+                  </span>
+                  <span class="story-interaction-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                    <span>19 comments</span>
+                  </span>
+                </div>
+                <span>Azilal</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Post 3: Emma Wilson -->
+          <article class="story-card">
+            <div class="story-author-header">
+              <div class="story-author-meta">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&h=150&q=80" alt="Emma Wilson" class="story-author-avatar">
+                <div>
+                  <h3 class="story-author-name">Emma Wilson</h3>
+                  <span class="story-location-tag">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                    Aït Bouguemez
+                  </span>
+                </div>
+              </div>
+              <span class="story-date-badge">1 week ago</span>
+            </div>
+            <div class="story-image-wrap">
+              <img src="assets/images/ait-bouguemez.jpg" alt="Aït Bouguemez Happy Valley" class="story-image" loading="lazy">
+            </div>
+            <div class="story-body">
+              <p class="story-quote">
+                "Discovering Amazigh culture and meeting local families made this trip unforgettable. Staying at an eco-guesthouse gave us memories for a lifetime."
+              </p>
+              <div class="story-social-footer">
+                <div class="story-interactions">
+                  <span class="story-interaction-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="#FF7138" stroke="none"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                    <span>512 likes</span>
+                  </span>
+                  <span class="story-interaction-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                    <span>43 comments</span>
+                  </span>
+                </div>
+                <span>High Atlas</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Static Upload Form Preview -->
+        <div id="share-form" class="upload-form-card">
+          <div class="upload-form-header">
+            <h3 class="upload-form-title">Share Your Experience</h3>
+            <p class="upload-form-subtext">Inspire fellow travelers and earn +30 XP toward your ATLASIA Travel Passport.</p>
+          </div>
+
+          <form action="#publish-story" method="get">
+            
+            <div class="upload-dropzone">
+              <div class="dropzone-icon">
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"></rect><circle cx="9" cy="9" r="2"></circle><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"></path></svg>
+              </div>
+              <div class="dropzone-text">Click or drag & drop travel photos here</div>
+              <div class="dropzone-hint">Supports JPG, PNG up to 10MB (Visual Prototype)</div>
+            </div>
+
+            <div class="upload-fields-grid">
+              <div class="form-input-group">
+                <label class="form-label" for="traveler-input-name">Your Name</label>
+                <input type="text" id="traveler-input-name" class="form-input" placeholder="e.g. Sarah Martin" value="Sarah Martin">
+              </div>
+
+              <div class="form-input-group">
+                <label class="form-label" for="destination-select">Choose Destination</label>
+                <select id="destination-select" class="form-select">
+                  <option value="ouzoud" selected>Cascades d'Ouzoud (Azilal)</option>
+                  <option value="bin-el-ouidane">Lac Bin El Ouidane (Azilal)</option>
+                  <option value="ait-bouguemez">Vallée d'Aït Bouguemez (Azilal)</option>
+                  <option value="foret-cedres">Forêt de Cèdres (Khénifra)</option>
+                  <option value="ain-asserdoun">Ain Asserdoun (Béni Mellal)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-input-group">
+              <label class="form-label" for="story-textarea">Write Your Story</label>
+              <textarea id="story-textarea" class="form-textarea" placeholder="Share what made your visit special, local food recommendations, or scenic spots..."></textarea>
+            </div>
+
+            <div style="text-align: center; margin-top: 14px;">
+              <button type="button" class="btn-publish-story">
+                <span>Publish Story</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         NEW SECTION 4: Local Guides – Discover and Contact Your Guide
+         ======================================================================== -->
+    <section id="guides" class="guides-section">
+      <div class="container">
+
+        <div class="section-header-bar">
+          <div>
+            <div class="section-kicker">PASSIONATE LOCAL AMBASSADORS</div>
+            <h2 class="section-title">Meet Your Local Guides</h2>
+            <p class="section-subtitle">Discover the region with people who know it best.</p>
+          </div>
+          <a href="guide-profile.html" class="explore-all-link">
+            <span>Explore all guides</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </div>
+
+        <!-- 3 Professional Guide Profile Cards -->
+        <div class="guides-grid">
+
+          <!-- Guide 1 – Fatima El Amrani -->
+          <article class="guide-card">
+            <div class="guide-header-area">
+              <span class="guide-location-chip">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                Azilal Province
+              </span>
+              <span class="guide-rating-chip">★ 4.9 (128 reviews)</span>
+            </div>
+            <div class="guide-avatar-row">
+              <div class="guide-avatar-wrap">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&h=400&q=80" alt="Fatima El Amrani" class="guide-avatar">
+              </div>
+              <div class="guide-price-badge">
+                <span class="guide-price-label">Starting at</span>
+                <span class="guide-price-val">From $20</span>
+              </div>
+            </div>
+            <div class="guide-body">
+              <div class="guide-name-row">
+                <h3 class="guide-name">Fatima El Amrani</h3>
+                <span class="verified-badge" title="State Certified Guide">
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="#2563EB"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                </span>
+              </div>
+              <div class="guide-exp-text">5 years experience · Certified Mountain Guide</div>
+              
+              <div class="guide-detail-list">
+                <div class="guide-detail-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                  <span><strong>Languages:</strong> Arabic, French, English</span>
+                </div>
+                <div class="guide-detail-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m8 3 4 8 5-5 5 15H2L8 3z"></path></svg>
+                  <span><strong>Specialties:</strong> Hiking, waterfalls and nature.</span>
+                </div>
+              </div>
+
+              <div class="guide-actions-row">
+                <a href="guide-profile.html#contact" class="btn-guide-contact">Contact Guide</a>
+                <a href="guide-profile.html" class="btn-guide-profile">View Profile</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Guide 2 – Ahmed Ouhammou -->
+          <article class="guide-card">
+            <div class="guide-header-area">
+              <span class="guide-location-chip">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                Khénifra Province
+              </span>
+              <span class="guide-rating-chip">★ 4.8 (94 reviews)</span>
+            </div>
+            <div class="guide-avatar-row">
+              <div class="guide-avatar-wrap">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&h=400&q=80" alt="Ahmed Ouhammou" class="guide-avatar">
+              </div>
+              <div class="guide-price-badge">
+                <span class="guide-price-label">Starting at</span>
+                <span class="guide-price-val">From $25</span>
+              </div>
+            </div>
+            <div class="guide-body">
+              <div class="guide-name-row">
+                <h3 class="guide-name">Ahmed Ouhammou</h3>
+                <span class="verified-badge" title="State Certified Guide">
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="#2563EB"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                </span>
+              </div>
+              <div class="guide-exp-text">7 years experience · Atlas Forestry Specialist</div>
+              
+              <div class="guide-detail-list">
+                <div class="guide-detail-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                  <span><strong>Languages:</strong> Arabic, Amazigh, French</span>
+                </div>
+                <div class="guide-detail-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></svg>
+                  <span><strong>Specialties:</strong> Cedar forests, mountains and local culture.</span>
+                </div>
+              </div>
+
+              <div class="guide-actions-row">
+                <a href="guide-profile.html#contact" class="btn-guide-contact">Contact Guide</a>
+                <a href="guide-profile.html" class="btn-guide-profile">View Profile</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Guide 3 – Hamza El Fassi -->
+          <article class="guide-card">
+            <div class="guide-header-area">
+              <span class="guide-location-chip">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                Béni Mellal Province
+              </span>
+              <span class="guide-rating-chip">★ 4.9 (112 reviews)</span>
+            </div>
+            <div class="guide-avatar-row">
+              <div class="guide-avatar-wrap">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&h=400&q=80" alt="Hamza El Fassi" class="guide-avatar">
+              </div>
+              <div class="guide-price-badge">
+                <span class="guide-price-label">Starting at</span>
+                <span class="guide-price-val">From $15</span>
+              </div>
+            </div>
+            <div class="guide-body">
+              <div class="guide-name-row">
+                <h3 class="guide-name">Hamza El Fassi</h3>
+                <span class="verified-badge" title="State Certified Guide">
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="#2563EB"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                </span>
+              </div>
+              <div class="guide-exp-text">4 years experience · Culinary & Cultural Ambassador</div>
+              
+              <div class="guide-detail-list">
+                <div class="guide-detail-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                  <span><strong>Languages:</strong> Arabic, French, English</span>
+                </div>
+                <div class="guide-detail-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path></svg>
+                  <span><strong>Specialties:</strong> City tours, gastronomy and cultural discovery.</span>
+                </div>
+              </div>
+
+              <div class="guide-actions-row">
+                <a href="guide-profile.html#contact" class="btn-guide-contact">Contact Guide</a>
+                <a href="guide-profile.html" class="btn-guide-profile">View Profile</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         Moroccan Kasbah & Atlas Skyline Illustration
+         ======================================================================== -->
+    <div class="moroccan-skyline-wrapper" aria-hidden="true">
+      <svg viewBox="0 0 1440 110" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 110L0 55L95 38L180 50L310 18L460 52L620 22L780 48L910 20L1080 56L1240 26L1350 46L1440 32V110H0Z" fill="#E8D8C5" opacity="0.6"/>
+        <path d="M0 110L0 70H45V58H58V70H75V58H88V70H110V52H125V70H160L165 65L170 70H230V58H242V70H258V58H270V70H320V78H420V62H435V78H480L490 60L500 78H580V45H595V40H600V35L605 30L610 35V40H615V45H630V78H680V60H695V78H740V50H752V45H764V50H776V78H850V65H865V78H930V55H945V78H980L990 62L1000 78H1060V48H1075V42H1080V38L1085 32L1090 38V42H1095V48H1110V78H1180V60H1195V78H1260V50H1275V78H1340V62H1355V78H1440V110H0Z" fill="#D4BEA5" opacity="0.85"/>
+        <path d="M0 110L0 88H140V80H150V88H280V82H295V88H450V78H465V88H560V70H575V66H580V62L585 58L590 62V66H595V70H610V88H720V80H735V88H880V76H895V88H1020V68H1035V64H1040V60L1045 56L1050 60V64H1055V68H1070V88H1200V82H1215V88H1320V78H1335V88H1440V110H0Z" fill="#172554"/>
+      </svg>
+    </div>
+
+  </main>
+
+  <!-- ========================================================================
+       F. Footer
+       ======================================================================== -->
+  <footer class="site-footer" id="about" role="contentinfo">
+    <div class="container">
+      
+      <div class="footer-top">
+
+        <!-- Column 1: Brand Info & Bio -->
+        <div class="footer-brand">
+          <div class="footer-logo-group">
+            <svg class="brand-symbol" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="39" cy="22" r="13" fill="#FF7138" />
+              <path d="M12 48L32 20L44 36L48 30L60 48H12Z" fill="#3B82F6" opacity="0.85" />
+              <path d="M4 48L25 15L43 48H4Z" fill="#FFFFFF" />
+              <path d="M25 15L17 28L25 25L32 30L25 15Z" fill="#E2E8F0" opacity="0.9" />
+              <path d="M38 28L32 36L38 34L44 36L38 28Z" fill="#93C5FD" opacity="0.9" />
+            </svg>
+            <div>
+              <span class="footer-brand-name">ATLASIA</span>
+              <div class="footer-brand-tagline">Discover Morocco differently &bull; Your journey starts here.</div>
+            </div>
+          </div>
+          <p class="footer-bio">
+            ATLASIA connects global travelers with authentic Moroccan destinations, certified local guides, custom budget packs, and unforgettable cultural heritage across the Béni Mellal-Khénifra region.
+          </p>
+          <!-- Social Media Icons -->
+          <div class="footer-socials" aria-label="Social media links">
+            <a href="https://instagram.com" class="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://facebook.com" class="social-link" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://youtube.com" class="social-link" aria-label="YouTube" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="https://x.com" class="social-link" aria-label="X (Twitter)" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://linkedin.com" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Column 2: Explore Destinations -->
+        <div class="footer-column">
+          <h4 class="footer-column-title">Explore Destinations</h4>
+          <ul class="footer-links-list">
+            <li><a href="#heritage" class="footer-link" style="color: var(--orange); font-weight: 700;">Historical Monuments & Heritage</a></li>
+            <li><a href="#ouzoud" class="footer-link">Cascades d'Ouzoud</a></li>
+            <li><a href="#bin-el-ouidane" class="footer-link">Lac Bin El Ouidane</a></li>
+            <li><a href="#ait-bouguemez" class="footer-link">Vallée d'Aït Bouguemez</a></li>
+            <li><a href="#foret-cedres" class="footer-link">Forêt de Cèdres (Khénifra)</a></li>
+            <li><a href="#travel-packs" class="footer-link">Ain Asserdoun (Béni Mellal)</a></li>
+            <li><a href="#passport" class="footer-link">My Travel Passport</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Discover Experiences & Packs -->
+        <div class="footer-column">
+          <h4 class="footer-column-title">Travel Packs & Guides</h4>
+          <ul class="footer-links-list">
+            <li><a href="#travel-packs" class="footer-link">Budget Explorer ($30)</a></li>
+            <li><a href="#travel-packs" class="footer-link">Nature Adventure ($70)</a></li>
+            <li><a href="#travel-packs" class="footer-link">Atlas Experience ($120)</a></li>
+            <li><a href="guide-profile.html" class="footer-link">Fatima El Amrani (Azilal)</a></li>
+            <li><a href="#guides" class="footer-link">Ahmed Ouhammou (Khénifra)</a></li>
+            <li><a href="#guides" class="footer-link">Hamza El Fassi (Béni Mellal)</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Contact Information -->
+        <div class="footer-column">
+          <h4 class="footer-column-title">Contact Us</h4>
+          <div class="footer-contact-item">
+            <span class="footer-contact-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            </span>
+            <span>Avenue Hassan II, Béni Mellal, Béni Mellal-Khénifra, Morocco</span>
+          </div>
+          <div class="footer-contact-item">
+            <span class="footer-contact-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+            </span>
+            <span>contact@atlasia-morocco.com</span>
+          </div>
+          <div class="footer-contact-item">
+            <span class="footer-contact-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            </span>
+            <span>+212 (0) 523 48 00 00</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Copyright & Legal Links -->
+      <div class="footer-bottom">
+        <p class="footer-copyright">
+          &copy; 2026 ATLASIA. All rights reserved. Discover Morocco differently &bull; Your journey starts here.
+        </p>
+        <div class="footer-bottom-links">
+          <a href="#privacy" class="footer-bottom-link">Privacy Policy</a>
+          <a href="#terms" class="footer-bottom-link">Terms of Service</a>
+          <a href="#charter" class="footer-bottom-link">Sustainable Tourism Charter</a>
+          <a href="#sitemap" class="footer-bottom-link">Sitemap</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
